@@ -116,4 +116,5 @@ class Character(models.Model):
     description = models.TextField(max_length=280, blank=True)
 
     def __str__(self):
-        return f'{self.name}'  
+        """Displays the name of the character"""
+        return f'{self.name}'

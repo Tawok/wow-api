@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Own apps:
     'characters',
-    'users'
+    'users',
+    'characters_api',
+    # Other apps:
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
