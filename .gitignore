@@ -157,7 +157,7 @@ dmypy.json
 cython_debug/
 
 # Own files
-requests_test.py
+client-test
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

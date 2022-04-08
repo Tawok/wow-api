@@ -4,7 +4,6 @@ from wow import settings
 
 class Character(models.Model):
     """Database model for characters"""
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     name    = models.CharField(max_length =10, unique=True)
 
     MALE    = 'Male'
