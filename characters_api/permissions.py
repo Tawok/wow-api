@@ -17,4 +17,9 @@ class IsStaffPermission(permissions.DjangoModelPermissions):
         if not request.user.is_staff:
             return False
         return super().has_permission(request, view)
-            
+
+    """ def has_object_permission(self, request, obj):
+        #Check if the logged in user has permission to perform this action
+        if request.user == obj.user :
+            return True
+        return False """
